@@ -10,7 +10,7 @@ public class Clock {
     public static void main(String... args){
         createAndLaunchWindow();
         beginUpdatingClock();
-        waitForUserInputToExit();
+        waitForUserInputToExit();;
     }
 
     private static void createAndLaunchWindow() {

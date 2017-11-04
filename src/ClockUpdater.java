@@ -12,7 +12,7 @@ public class ClockUpdater implements Runnable{
 
     public ClockUpdater(JLabel date, JLabel time) {
         this.dateLabel = date;
-        this.timeLabel = time;
+        this.timeLabel = time;;
         running=true;
     }
 
