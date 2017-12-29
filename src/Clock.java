@@ -7,6 +7,7 @@ public class Clock {
     static JFrame frame;
     static JLabel dateLabel;
     static JLabel timeLabel;
+    
     public static void main(String... args){
         createAndLaunchWindow();
         beginUpdatingClock();
